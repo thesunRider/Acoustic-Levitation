@@ -1,0 +1,40 @@
+.title KiCad schematic
+.include "C:/Users/Surya/Documents/projects/electronics/acousticLevitation/KiCad-Spice-Library/Models/Transistor/BJT/BJTN.LIB"
+.include "C:/Users/Surya/Documents/projects/electronics/acousticLevitation/KiCad-Spice-Library/Models/uncategorized/Bordodynovs Electronics Lib/cmp/Standard/standard.dio"
+.include "C:/Users/Surya/Documents/projects/electronics/acousticLevitation/KiCad-Spice-Library/Models/uncategorized/Bordodynovs Electronics Lib/sub/74hct.lib"
+.include "C:/Users/Surya/Downloads/lib/lib/NE555.lib"
+.save all
+.probe alli
+.probe p(R1)
+.probe p(XU4)
+.probe p(R2)
+.probe p(C4)
+.probe p(D2)
+.probe p(Q3)
+.probe p(R6)
+.probe p(R5)
+.probe p(R3)
+.probe p(C1)
+.probe p(D1)
+.probe p(R4)
+.probe p(XU2)
+.probe p(C2)
+.probe p(C3)
+.probe p(V1)
+.tran 10u 5.5m 5m
+R1 Net-_U1-R1_ GND 10k
+R2 Net-_U1-PC1_ Net-_U1-VCOin_ 10k
+C4 Net-_U1-VCOin_ GND 1n
+D2 Net-_D2-A_ Net-_D1-K_ 1N4148
+Q3 +5V Net-_D1-A_ Net-_D2-A_ BC547
+R6 GND Net-_U2-Q_ 18k
+R5 Net-_R5-Pad1_ Net-_D2-A_ 15k
+R3 Net-_D1-A_ +5V 1k
+C1 Net-_U1-C1_ Net-_U1-C2_ 1n
+D1 Net-_D1-A_ Net-_D1-K_ 1N4148
+R4 +5V Net-_U2-R_ 10k
+XU2 GND Net-_U2-THR_ Net-_U2-Q_ Net-_U2-R_ Net-_U2-CV_ Net-_U2-THR_ Net-_D1-K_ +5V NE555
+C2 GND Net-_U2-CV_ 1u
+C3 GND Net-_U2-THR_ 1n
+V1 +5V GND DC 5
+.end
