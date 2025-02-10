@@ -1,4 +1,4 @@
-# Ultrasonic Levitator - Pure Analog Implementation
+# Ultrasonic Levitator
 
 ## 🚀 Project Overview
 This project demonstrates an **ultrasonic levitator** built using two 40kHz ultrasonic transducers. Unlike conventional microcontroller-based implementations, this design leverages **pure analog circuitry** to achieve precise phase control for dynamic levitation.
