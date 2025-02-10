@@ -32,7 +32,7 @@ https://github.com/user-attachments/assets/a8516da2-5b09-46c8-8bdc-7a151c99edca
 
 
 ## 📜 Schematic Diagram
-![Circuit Schematic](schematic.png)
+![Circuit Schematic](schematic.PNG)
 
 ## 🎯 Features & Advantages
 ✅ **Fully Analog Design** – No microcontrollers required!  
