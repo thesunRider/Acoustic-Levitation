@@ -25,10 +25,14 @@ The circuit consists of:
 3. A **DC-controlled phase shift mechanism**, where a variable voltage controls the phase shift dynamically.
 
 ## 📷 Demonstration
-![Ultrasonic Levitation](link-to-video-or-gif)
+
+
+https://github.com/user-attachments/assets/a8516da2-5b09-46c8-8bdc-7a151c99edca
+
+
 
 ## 📜 Schematic Diagram
-![Circuit Schematic](link-to-schematic-image)
+![Circuit Schematic](schematic.png)
 
 ## 🎯 Features & Advantages
 ✅ **Fully Analog Design** – No microcontrollers required!  
